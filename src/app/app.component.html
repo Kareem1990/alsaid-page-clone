@@ -1,0 +1,100 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+</head>
+
+<nav class="navbar navbar-expand-lg fixed-top ">
+  <img src="assets/alsaid.png" />
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-4 mx-auto sidenav" id="mySidenav">
+          <li class="nav-item">
+              <a class="nav-link" data-value="about" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " data-value="portfolio" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " data-value="blog" href="#">What We Do</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " data-value="team" routerLink="/events">Events</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " data-value="contact" href="#">Alsaid Forum</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " data-value="contact" href="#">SDG</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " data-value="contact" href="#">Get Involved</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link " data-value="contact" href="/events/events.component.html">Contact</a>
+          </li>
+      </ul>
+      <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+  </div>
+</nav>
+
+<router-outlet>     
+</router-outlet>
+
+<footer>
+  <div class="bottom align-self-baseline">
+      <div class="container bottom-con ">
+          <div class="row bottom-row">
+              <div class="col-sm bottom-col ">
+                  <div class="bottom-buttons ">
+                      About Us
+                  </div>
+                  <div class="bottom-buttons">
+                      Chairman's Message
+                  </div>
+                  <div class="bottom-buttons">
+                      Management Team
+                  </div>
+                  <div class="bottom-buttons">
+                      Vision & Mission
+                  </div>
+              </div>
+              <div class="col-sm bottom-col">
+                  <div class="bottom-buttons">
+                      Internships
+                  </div>
+                  <div class="bottom-buttons">
+                      Partners
+                  </div>
+                  <div class="bottom-buttons">
+                      Become a Partner
+                  </div>
+                  <div class="bottom-buttons">
+                      Volunteer
+                  </div>
+              </div>
+              <div class="col-sm bottom-col">
+                  <div class="bottom-buttons">
+                      What We Do
+                  </div>
+                  <div class="bottom-buttons">
+                      Alsaid Forum
+                  </div>
+                  <div class="bottom-buttons">
+                      SDG
+                  </div>
+                  <div class="bottom-buttons">
+                      Contact Us
+                  </div>
+              </div>
+          </div>
+      </div>
+      <p>© 2021 Alsaid Foundation. All Rights Reserved.</p>
+  </div>
+</footer>
+
